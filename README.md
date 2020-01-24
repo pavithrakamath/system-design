@@ -25,8 +25,8 @@ so solution for such problems have already been identified and hence creational 
  - How to structure objects such in order to reduce coupling
  - To identify relationships between objects inorder to simplify the structure 
  
- 1. Adapter
- 2. Bridge
+ 1. Adapter - use object composition principle to implement the interface of one of the objects and wraps the other one. So Adapter provides a different interface to the wrapped object. 
+ 2. Bridge - ![very powerful graphical reprsenetation of what Bridge does] (https://refactoring.guru/images/patterns/content/bridge/bridge-3-en-2x.png "Bridge Pattern")
  3. Proxy
  4. Decorator
  5. Flyweight
