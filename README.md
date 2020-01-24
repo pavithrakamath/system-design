@@ -7,7 +7,12 @@ Notes on design-patterns
 - sometimes you might have a very complex constructors where some of the elements are optional, very hard for user to understand and remember the construct, right? 
 
 so solution for such problems have already been identified and hence creational patterns
- 1. Singleton - single instance per execution e.g., Cache, ThreadPool, 
- 2. Builder
+ 1. Singleton - pattern to solve 2 problems - 
+    1. single instance per execution
+    2. Global access to the instance
+    
+   e.g., Cache, ThreadPool, Database *Remember eager v/s Lazy initialization, Double-check-locking, multi-threading concerns*
+   
+ 2. Builder - 
  3. Factory and abstract Factory
  4. Prototype  - create set of objects configured in various ways (prototypes) and then clone them when you need a similar instance for your use.  advantage is that when you "new" something its in init state and then you need to set all the values of the fields (sometimes that are inaccessible from your code(private) ), whereas in prototype - you as the concrete class to give you the instance with the preconfigured data. *Remember deep clone and shallow clone and difficulty in implementing the clone method in case of circular references*
