@@ -18,6 +18,8 @@ so solution for such problems have already been identified and hence creational 
  4. Abstract factory
  5. Prototype  - create set of objects configured in various ways (prototypes) and then clone them when you need a similar instance for your use.  advantage is that when you "new" something its in init state and then you need to set all the values of the fields (sometimes that are inaccessible from your code(private) ), whereas in prototype - you as the concrete class to give you the instance with the preconfigured data. *Remember deep clone and shallow clone and difficulty in implementing the clone method in case of circular references*
 
+*** 
+
 ## Structural patterns - How to assmeble classes and objects into larger structure while keeping them efficient and flexible
 #### Need for recognizing structural patterns
  - How to structure objects such in order to reduce coupling
