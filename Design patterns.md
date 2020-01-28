@@ -1,4 +1,4 @@
-# design-patterns
+# **Design-patterns**
 Notes on design-patterns
 ## Creational patterns - How classes are instantiated 
 #### Need for recognizing creational patterns 
