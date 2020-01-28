@@ -40,4 +40,7 @@
      Distribution network for static media for global websites. So takes the load off app server to serve static media and provide geographic distribution
  
  
-
+# Data Partitioning
+ 1. Horizontal patition (Data sharding)
+ 1. Vertical Partition
+ 1. Directory based partitioning
