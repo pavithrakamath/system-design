@@ -27,16 +27,29 @@
      - Write-around cache: write to permanent storage first bypassing cache. 
      - Write-back cache: data written to cache alone and confirmation provided to client. periodic conditional writes to permanent storage
      
-#### Cache eviction policies
-    - *F*irst*I*n*F*irst*O*ut
-    - *L*ast*I*n*F*irst*O*ut
-    - *L*east*R*ecently*U*sed
-    - *M*ost*F*requently*U*sed
-    - *L*east*F*requently*U*sed
-    - *R*andom*R*epalcement
+#### Cache eviction policies ####
+    
+    -       
+   **F**irst**I**n**F**irst**O**ut
+    
+    -    
+   **L**ast**I**n**F**irst**O**ut
+    
+    -     
+   **L**east**R**ecently**U**sed
+   
+    -     
+   **M**ost**F**requently**U**sed
+   
+    - 
+   **L**east**F**requently**U**sed
+   
+    -
+   **R**andom**R**epalcement
  
  
  #### Content distribution networks (CDN) 
      Distribution network for static media for global websites. So takes the load off app server to serve static media and provide geographic distribution
  
  
+
