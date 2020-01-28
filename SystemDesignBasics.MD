@@ -20,4 +20,23 @@
  To avoid making LBs as the single point of failure, configure another as passibve and form a cluster. 
  
  # Caching
- Read about caching strategies
+ cache invalidation schemes, eviction policies( LRU ), in-memory cache, application v/s database cache
+ 
+ #### Cache invalidation schemes - keeping cache coherent with source
+     - Write-through cache - write data into cache and DB at the same time. Although, write through minimizes the risk of data loss, since every write operation must be done twice before returning success to the client, this scheme has the disadvantage of higher latency for write operations.
+     - Write-around cache: write to permanent storage first bypassing cache. 
+     - Write-back cache: data written to cache alone and confirmation provided to client. periodic conditional writes to permanent storage
+     
+#### Cache eviction policies
+    - *F*irst*I*n*F*irst*O*ut
+    - *L*ast*I*n*F*irst*O*ut
+    - *L*east*R*ecently*U*sed
+    - *M*ost*F*requently*U*sed
+    - *L*east*F*requently*U*sed
+    - *R*andom*R*epalcement
+ 
+ 
+ #### Content distribution networks (CDN) 
+     Distribution network for static media for global websites. So takes the load off app server to serve static media and provide geographic distribution
+ 
+ 
