@@ -28,24 +28,12 @@
      - Write-back cache: data written to cache alone and confirmation provided to client. periodic conditional writes to permanent storage
      
 #### Cache eviction policies ####
-    
-    -       
-   **F**irst**I**n**F**irst**O**ut
-    
-    -    
-   **L**ast**I**n**F**irst**O**ut
-    
-    -     
-   **L**east**R**ecently**U**sed
-   
-    -     
-   **M**ost**F**requently**U**sed
-   
-    - 
-   **L**east**F**requently**U**sed
-   
-    -
-   **R**andom**R**epalcement
+ - **F**irst**I**n**F**irst**O**ut
+ - **L**ast**I**n**F**irst**O**ut
+ - **L**east**R**ecently**U**sed
+ - **M**ost**F**requently**U**sed
+ - **L**east**F**requently**U**sed
+ - **R**andom**R**epalcement
  
  
  #### Content distribution networks (CDN) 
