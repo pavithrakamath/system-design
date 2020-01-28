@@ -8,3 +8,16 @@
 -  **E**fficiency 
     - Throughput - 
     - Latency -
+
+# Load Balancing Algorithms
+    - Least connection method - useful when there are a large number of persistent client connections which are unevenly distributed between the servers.
+    - Least response time - 
+    - Least Bandwidth method - selects the server that is currently serving the least amount of traffic measured in megabits per second (Mbps).
+    - Round robin method - useful when not many persistent connections and all servers are of equal spec
+    - Weighted Round robin method - useful when servers in the pool are of different spec. servers with higher weight receive more traffic than ones with less weights.
+    - IP Hash - hash of client IP used to redirect request to a server (server affinity)
+    
+ To avoid making LBs as the single point of failure, configure another as passibve and form a cluster. 
+ 
+ # Caching
+ Read about caching strategies
