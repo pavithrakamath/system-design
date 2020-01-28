@@ -41,6 +41,12 @@
  
  
 # Data Partitioning
- 1. Horizontal patition (Data sharding)
- 1. Vertical Partition
+ 1. Horizontal partition (Data sharding)
+ 1. Vertical partition
  1. Directory based partitioning
+
+# Proxy Servers
+1. Open Proxy -proxy server that is accessible by any Internet user
+    * anonymous proxy - doesn't reveal the initial IP so beneficial to hide the client IP address
+    * transparent proxy - first ip can be viewed via HTTP headers. benefit is to cache the websites
+1. Reverse Proxy - retrieves resources on behalf of a client from 1 or more servers while appearing to the client as if they originated from the proxy server itself.
