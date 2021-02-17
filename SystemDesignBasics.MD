@@ -50,3 +50,8 @@
     * anonymous proxy - doesn't reveal the initial IP so beneficial to hide the client IP address
     * transparent proxy - first ip can be viewed via HTTP headers. benefit is to cache the websites
 1. Reverse Proxy - retrieves resources on behalf of a client from 1 or more servers while appearing to the client as if they originated from the proxy server itself.
+
+
+# Entities and Value Objetcs
+1. Entities - Identifier / Reference Equivalence implies object equivalence. Like ( 2 person with same name are nt same, they are same only if the Identifier / reference is same)
+1. Value Objects - Structural / refernce Equivalence implies object equivalence. e.g., ( 2 co-ordinates are pointing to same position if the X and Y have same value, 2 1 dollar bills are same as long as their value is 1 dollar) So they dont have identity fields. They are generally immutable. They are part of an entity and generally never by themselves.
